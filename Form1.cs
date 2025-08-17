@@ -113,7 +113,7 @@ namespace FaceDetectionWinForms
         {
             running = false;
             capture?.Release();
-            base.OnFormClosing(e); 
+            base.OnFormClosing(e);   
         }
     }
 }
